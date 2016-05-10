@@ -56,7 +56,7 @@ public class ProductsAdapter extends BaseAdapter {
             tvTitle.setText(listItens.get(position).getTitle());
             tvDescr.setText(listItens.get(position).getDescr());
         } else {
-            grid = (View) view;
+            grid = view;
         }
 
         return grid;
